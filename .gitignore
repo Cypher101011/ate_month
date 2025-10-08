@@ -1,0 +1,7 @@
+# Ignore unnecessary or large files
+*.pdf
+
+*.pub
+
+sshkey
+sshkey.pub
