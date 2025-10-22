@@ -1,11 +1,16 @@
+
 def isPalindrome(x):
-    mystring = str(x)
-    length = len(mystring)
+    mystring=str(x)
+    length=len(x)
+    palindrome=False
+    for i in range(len(x)):
+        for j in range(len(x)):
+            if mystring[i]==mystring[j]:
+                print(mystring[i],mystring[j])
+            
+    return palindrome
 
-    for i in range(length // 2):
-        if mystring[i] != mystring[length - i - 1]:
-            return False
-    return True
 
-x = input("Enter a number or string: ")
+x=input()
 print(isPalindrome(x))
+
