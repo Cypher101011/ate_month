@@ -1,0 +1,22 @@
+.box1,.box2{
+    font-size: 28px;
+    font-family: Hevetica,'Times New Roman',  sans-serif;
+    padding:10px;
+     display: inline-block;
+    border-color: grey;
+    border:2px solid grey
+
+   
+   
+
+}
+.box1{
+    background-color: black;
+    color:white;
+    border-radius: None;
+
+}
+.box2{
+    color:black;
+    background-color:yellow
+}

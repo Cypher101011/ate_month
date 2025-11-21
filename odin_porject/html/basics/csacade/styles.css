@@ -1,0 +1,31 @@
+/* rule 1 */
+
+
+/* rule 2 */
+.main .list {
+  color: red;
+}
+
+.subsection {
+  color: blue;
+}
+
+
+#subsection{
+    color:blue
+}
+.main .list{
+    color:red;
+}
+body{
+    margin-left: 2cm;
+}
+
+#subsection{
+    background-color: yellow;
+    color: blue;
+
+}
+.main#subsection{
+    color:red
+}

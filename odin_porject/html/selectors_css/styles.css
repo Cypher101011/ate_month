@@ -1,0 +1,43 @@
+/* styles.css */
+
+div {
+  color: red;
+}/* styles.css */
+
+.alert-text {
+  color: red;
+}
+/*
+#title {
+background-color: red;
+}
+.read{
+    color:white;
+    background-color: black;
+}
+.unread{
+    color:white;
+    background-color: black;
+}*/
+/* can be written as */
+.read,.unread{
+    /* common decleration */
+    color:white;
+    background-color: black;
+}
+.read{
+    /* unique */
+}
+.unread{
+    /* unique */
+}
+
+.subsection_header{
+    color:red;
+}
+.subsection#preview{
+    color:aqua
+}
+.ancestor .contents{
+    
+}

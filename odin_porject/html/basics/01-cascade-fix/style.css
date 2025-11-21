@@ -1,0 +1,31 @@
+body{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.para{
+ font-size:30;   
+}
+.small-para{
+    font-size: 10;
+}
+
+#confirm-button{
+    color:aliceblue;
+    background-color: green;
+    
+}
+.cancel{
+    background-color: white;
+    color:black
+}
+.text{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.text .child{
+    font-weight: bolder;
+    font-size: small;
+}
