@@ -1,0 +1,10 @@
+flowchart TD
+    A[Start Game] --> B[pygame.init()]
+    B --> C[Create Settings, Screen, Ship, Background]
+    C --> D{Game Loop}
+    D --> E[Handle Events\n(KEYDOWN/KEYUP/QUIT)]
+    E --> F[Update Objects\n(ship, bullets, aliens)]
+    F --> G[Draw Background]
+    G --> H[Draw Ship, Bullets, Aliens]
+    H --> I[pygame.display.flip()]
+    I --> D

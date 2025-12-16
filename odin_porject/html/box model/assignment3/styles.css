@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+}
+p,
+ul{
+    border:2px solid rebeccapurple;
+}
+
+span,
+li{
+    border:2px solid blue;
+    
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+.inline{
+    display: inline;
+}
+.box{
+    border: 5px solid rebeccapurple;
+    background-color: darkgrey;
+    padding:40px;
+    margin:30px;
+    width: 300px;
+    height: 150px;
+}
+.alternate{
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+.container{
+    border: 5px solid blue;
+    margin: 40px;
+
+}
+.box{
+    border:5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 10px;
+    height:100px;
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+}
+.p{
+    border: 5px solid blue;
+    background-color: grey;
+    padding: 10px;
+}
+.one{
+    margin-bottom: 50px;
+}
+.two{
+    margin-top: 30px;
+}
